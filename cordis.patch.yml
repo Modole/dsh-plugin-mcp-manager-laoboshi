@@ -1,0 +1,7 @@
+- insert:
+    - id: laobos-mcp-manager
+      name: '@laobos/dsh-mcp-manager'
+      config:
+        databasePath: !!js dshHomePath('data/laobos-mcp-manager.db')
+        planPreset: read-only
+        fallbackPreset: workspace-write
